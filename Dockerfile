@@ -23,4 +23,4 @@ ADD specfem2d specfem2d
 #    && make
 ADD initial_setup.sh initial_setup.sh
 
-WORKDIR /specfem/specfem2d
+WORKDIR /specfem
