@@ -1,0 +1,12 @@
+version: '3'
+services:
+  spec:
+    build: .
+    volumes:
+      - ./:/specfem/
+    command: /bin/bash
+    tty: true
+    stdin_open: true
+    #ports:
+    #  - 8800:8800
+
