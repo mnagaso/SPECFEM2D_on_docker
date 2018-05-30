@@ -17,10 +17,6 @@ RUN apt-get install zlib1g-dev scotch gfortran libopenmpi-dev -y
 #RUN apt-get -y upgrade
 
 WORKDIR /specfem
-ADD specfem2d specfem2d
-#RUN cd /specfem/specfem2d \
-#    && ./configure FC=gfortran CC=gcc MPIFC=mpif90 --with-mpi \
-#    && make
 ADD initial_setup.sh initial_setup.sh
 
 WORKDIR /specfem
