@@ -6,7 +6,7 @@ RUN apt-get install build-essential checkinstall -y
 RUN apt-get install python3-dev -y
 RUN apt-get install vim -y
 RUN apt-get install git -y
-RUN apt-get install zlib1g-dev scotch gfortran openmpi-bin openmpi-doc libopenmpi-dev -y
+RUN apt-get install zlib1g-dev scotch gfortran openmpi-bin openmpi-doc libopenmpi-dev dos2unix -y
 
 # if you use debian:strech
 #RUN echo deb http://downloads.skewed.de/apt/stretch stretch main >> /etc/apt/sources.list
