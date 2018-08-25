@@ -13,6 +13,6 @@ Docker configuration files for running SPECFEM2D on non linux system.
 6. `chmod a+x initial_setup.sh`  
 7. `./initial_setup.sh` (this will compile the SPECFEM's source code.)
 8. to leave this container, `ctrl + p + q`  
-9. then to re-attach this container, redo step 4
+9. for re-attaching to this container, redo step 4
 
 The modifications done in the container will be reflected automatically on the local environment.
