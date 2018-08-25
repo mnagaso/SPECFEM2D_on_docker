@@ -1,6 +1,6 @@
 ![Logo](./Logo_mm.png)
 
-# SPECFEM2D_on_docker  
+# SPECFEM2D on Docker  
 
 Docker configuration files for running SPECFEM2D on non linux system.  
 
