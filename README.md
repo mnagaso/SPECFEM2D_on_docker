@@ -12,8 +12,6 @@ Docker configuration files for running SPECFEM2D on non linux system.
 5. `docker attach specfem2dondocker_spec_1`
 6. `chmod a+x initial_setup.sh`  
 7. `./initial_setup.sh` (this will compile the SPECFEM's source code.)  
-if you found the error `^m: bad interpreter: ~` please do this command,
-`find . -type f -exec dos2unix -k -s -o {} ';'`  
 8. to leave this container, `ctrl + p + q`  
 9. for re-attaching to this container, redo step 4
 
