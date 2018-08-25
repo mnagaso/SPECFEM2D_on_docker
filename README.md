@@ -1,4 +1,4 @@
-![Logo](./Logo.png)
+![Logo](./Logo_m.png)
 
 # SPECFEM2D_on_docker  
 
