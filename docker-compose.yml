@@ -3,7 +3,7 @@ services:
   spec:
     build: .
     volumes:
-      - ./:/specfem/
+      - ./:/workspace/
     command: /bin/bash
     tty: true
     stdin_open: true
