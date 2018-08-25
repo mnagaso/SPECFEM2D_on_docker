@@ -3,8 +3,8 @@
 Docker configuration files for running SPECFEM2D on non linux system.  
 
 0. if Docker is not installed yet, it can be downloaded from https://www.docker.com/  
-1. git clone or download this repository  
-2. download https://github.com/geodynamics/specfem2d in the directory SPECFEM2D_on_docker  
+1. git clone or download this repository by `git clone https://github.com/mnagaso/SPECFEM2D_on_docker` on cmd.     
+2. download https://github.com/geodynamics/specfem2d in the directory SPECFEM2D_on_docker (`cd SPECFEM2D_on_docker` then `git clone --branch devel https://github.com/geodynamics/specfem2d`)  
 3. verify if docker daemon is running  
 4. `docker-compose up -d`  
 5. `docker attach specfem2d_on_docker_spec_1`
