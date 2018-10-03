@@ -5,7 +5,7 @@
 Docker configuration files for running SPECFEM2D on non linux system.  
 
 0. if Docker is not installed yet, it can be downloaded from https://www.docker.com/  
-1. git clone or download this repository by `git clone https://github.com/mnagaso/SPECFEM2D_on_docker` on cmd.     
+1. download this repository or git clone by `git clone https://github.com/mnagaso/SPECFEM2D_on_docker` on cmd.     
 2. `cd SPECFEM2D_on_docker`
 3. verify if docker daemon is running  
 4. `docker-compose up -d`  
